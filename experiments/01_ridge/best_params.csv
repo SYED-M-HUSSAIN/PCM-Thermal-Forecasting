@@ -1,0 +1,9 @@
+model,regime,case,best_params,best_mean_rmse
+Ridge,charging,case1_baseline,"{""alpha"": 0.001}",2.7394549188279806
+Ridge,charging,case2_solar,"{""alpha"": 0.001}",2.739457041149837
+Ridge,charging,case3_lags,"{""alpha"": 0.001}",0.24533022416179998
+Ridge,charging,case4_solar_and_lags,"{""alpha"": 0.001}",0.24533130584895393
+Ridge,discharging,case1_baseline,"{""alpha"": 10.0}",2.204063503055162
+Ridge,discharging,case2_solar,"{""alpha"": 10.0}",2.2368705281775547
+Ridge,discharging,case3_lags,"{""alpha"": 100.0}",1.6171088710589263
+Ridge,discharging,case4_solar_and_lags,"{""alpha"": 10.0}",1.6032285762635647
