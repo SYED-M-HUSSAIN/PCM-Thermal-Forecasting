@@ -43,3 +43,13 @@ PCM-Thermal-Forecasting/
 ├── all_best_params.csv
 └── summary.csv
 ```
+
+## Results
+
+### Comparison RMSE
+
+![Comparison RMSE](figures/comparison_rmse.png)
+
+### Feature Correlation
+
+![Feature Correlation](figures/feature_correlation.png)
