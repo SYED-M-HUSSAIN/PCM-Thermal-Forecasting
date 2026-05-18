@@ -53,3 +53,16 @@ PCM-Thermal-Forecasting/
 ### Feature Correlation
 
 ![Feature Correlation](figures/feature_correlation.png)
+
+### Best Model Results
+
+| Regime | Case | Best Model | RMSE | MAE | R² | MAPE (%) |
+|--------|------|-----------|------|-----|-----|----------|
+| Charging | case1_baseline | Ridge | 0.12 | 0.10 | 0.999 | 0.31 |
+| Charging | case2_solar | Ridge | 0.12 | 0.10 | 0.999 | 0.31 |
+| Charging | case3_lags | Ridge | 0.12 | 0.10 | 0.999 | 0.31 |
+| Charging | case4_solar_and_lags | Ridge | 0.12 | 0.10 | 0.999 | 0.31 |
+| Discharging | case1_baseline | Ridge | 2.05 | 1.88 | 0.887 | 6.25 |
+| Discharging | case2_solar | Ridge | 2.08 | 1.89 | 0.883 | 6.29 |
+| Discharging | case3_lags | Ridge | 1.23 | 0.82 | 0.959 | 2.67 |
+| Discharging | case4_solar_and_lags | Ridge | 1.46 | 1.35 | 0.958 | 3.47 |
