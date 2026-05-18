@@ -71,15 +71,6 @@ Three algorithms are compared:
      - `l2_regularization`: [0.0, 1.0]
      - `min_samples_leaf`: [5, 15]
 
-### Technology Stack
-
-| Component | Technology |
-|-----------|-----------|
-| **Language** | Python 3.x |
-| **Data Processing** | pandas, Apache Parquet |
-| **Machine Learning** | scikit-learn |
-| **Visualization** | matplotlib |
-| **Data I/O** | openpyxl (Excel), pyarrow (Parquet) |
 
 ## Evaluation Metrics
 
@@ -207,8 +198,3 @@ Each `tune.py` script produces:
 - **Charging regime** exhibits superior predictability (R² ~0.999) compared to discharging (R² ~0.887-0.959)
 - **Feature engineering** has a more substantial impact than model selection on prediction accuracy
 
-## References & Documentation
-
-- **scikit-learn Documentation**: https://scikit-learn.org/
-- **Leave-One-Out Cross-Validation**: Standard practice for small sample evaluation
-- **Phase-Change Materials**: Thermal energy storage technology for building and industrial applications
